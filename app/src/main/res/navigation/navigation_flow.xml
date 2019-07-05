@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation_flow"
+            app:startDestination="@id/competitionsFragment">
+
+    <fragment android:id="@+id/competitionsFragment"
+              android:name="com.romanik.footballcompetitions.ui.competitions.CompetitionsFragment"
+              android:label="@string/competitions_title" tools:layout="@layout/competitions_fragment">
+        <action android:id="@+id/action_competitionsFragment_to_competitionDetailsFragment"
+                app:destination="@id/competitionDetailsFragment" app:popUpTo="@+id/competitionsFragment"
+                app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim"
+                app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:id="@+id/teamsFragment" android:name="com.romanik.footballcompetitions.ui.teams.TeamsFragment"
+              android:label="@string/teams" tools:layout="@layout/teams_fragment"/>
+    <fragment android:id="@+id/competitionDetailsFragment"
+              android:name="com.romanik.footballcompetitions.ui.competitiondetails.CompetitionDetailsFragment"
+              android:label="@string/competition_details" tools:layout="@layout/competition_details_fragment"/>
+</navigation>

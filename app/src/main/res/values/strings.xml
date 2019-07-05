@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Football Competitions</string>
+
+    <string name="competitions_title">Competitions</string>
+
+    <string name="retry_later">Retry later</string>
+    <string name="try_again">try</string>
+    <string name="area_">Area: %s</string>
+    <string name="name_">Name: %s</string>
+    <string name="plan_">Plan: %s</string>
+    <string name="current_season_">Current Season: %s/%s</string>
+    <string name="current_matchday_">Current MatchDay: %s</string>
+    <string name="teams">Teams</string>
+    <string name="competition_details">Competition Details</string>
+
+</resources>

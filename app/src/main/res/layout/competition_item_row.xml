@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground" android:focusable="true">
+
+    <data>
+
+        <variable name="competition"
+                  type="com.romanik.footballcompetitions.domain.model.Competition"/>
+
+    </data>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="@{String.format(@string/area_, competition.area.name)}"
+                tools:text="Area: Ukraine"/>
+        <TextView
+                android:text="@{String.format(@string/name_, competition.name)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                tools:text="Name: UPL"/>
+        <TextView
+                android:text="@{String.format(@string/plan_, competition.plan)}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                tools:text="Plan: UPL"/>
+        <TextView
+                android:text="@{String.format(@string/current_season_, competition.currentSeason.getStringFormatDate(competition.currentSeason.startDate), competition.currentSeason.getStringFormatDate(competition.currentSeason.endDate))}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"/>
+
+        <TextView android:text="@{@string/current_matchday_(competition.currentSeason.currentMatchDay)}"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"/>
+
+
+    </LinearLayout>
+
+
+</layout>
