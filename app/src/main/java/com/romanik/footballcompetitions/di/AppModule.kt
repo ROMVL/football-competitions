@@ -11,9 +11,9 @@ import com.romanik.footballcompetitions.domain.usecase.db.FetchCompetitionsFromD
 import com.romanik.footballcompetitions.domain.usecase.FetchSaveTeamsUseCase
 import com.romanik.footballcompetitions.domain.usecase.cloud.FetchCompetitionsUseCase
 import com.romanik.footballcompetitions.domain.usecase.db.SaveCompetitionsUseCase
-import com.romanik.footballcompetitions.ui.competitiondetails.CompetitionDetailsViewModel
-import com.romanik.footballcompetitions.ui.competitions.CompetitionsViewModel
-import com.romanik.footballcompetitions.ui.teams.TeamsViewModel
+import com.romanik.footballcompetitions.presentation.ui.competitiondetails.CompetitionDetailsViewModel
+import com.romanik.footballcompetitions.presentation.ui.competitions.CompetitionsViewModel
+import com.romanik.footballcompetitions.presentation.ui.teams.TeamsViewModel
 import kotlinx.coroutines.SupervisorJob
 import org.koin.androidx.viewmodel.ext.koin.viewModel
 import org.koin.dsl.module.module

@@ -3,9 +3,9 @@ package com.romanik.footballcompetitions.domain.model
 import android.os.Parcel
 import androidx.room.ColumnInfo
 import com.google.gson.annotations.SerializedName
-import com.romanik.footballcompetitions.core.platform.KParcelable
-import com.romanik.footballcompetitions.core.platform.parcelableCreator
-import com.romanik.footballcompetitions.core.extentions.emptyString
+import com.romanik.footballcompetitions.presentation.core.platform.KParcelable
+import com.romanik.footballcompetitions.presentation.core.platform.parcelableCreator
+import com.romanik.footballcompetitions.presentation.core.extentions.emptyString
 
 data class Area(
     @SerializedName("id") @ColumnInfo(name ="id_area") val idArea: Long? = 0L,

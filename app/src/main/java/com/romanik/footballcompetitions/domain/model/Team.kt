@@ -5,9 +5,9 @@ import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import com.romanik.footballcompetitions.core.extentions.emptyString
-import com.romanik.footballcompetitions.core.platform.KParcelable
-import com.romanik.footballcompetitions.core.platform.parcelableCreator
+import com.romanik.footballcompetitions.presentation.core.extentions.emptyString
+import com.romanik.footballcompetitions.presentation.core.platform.KParcelable
+import com.romanik.footballcompetitions.presentation.core.platform.parcelableCreator
 
 @Entity
 data class Team(

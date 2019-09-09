@@ -1,11 +1,11 @@
 package com.romanik.footballcompetitions.domain.model
 
 import android.os.Parcel
-import com.romanik.footballcompetitions.core.extentions.emptyString
-import com.romanik.footballcompetitions.core.platform.KParcelable
-import com.romanik.footballcompetitions.core.platform.parcelableCreator
-import com.romanik.footballcompetitions.core.platform.readDate
-import com.romanik.footballcompetitions.core.platform.writeDate
+import com.romanik.footballcompetitions.presentation.core.extentions.emptyString
+import com.romanik.footballcompetitions.presentation.core.platform.KParcelable
+import com.romanik.footballcompetitions.presentation.core.platform.parcelableCreator
+import com.romanik.footballcompetitions.presentation.core.platform.readDate
+import com.romanik.footballcompetitions.presentation.core.platform.writeDate
 import java.util.*
 
 data class Player(

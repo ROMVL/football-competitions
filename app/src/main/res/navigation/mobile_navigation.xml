@@ -4,6 +4,6 @@
             android:id="@+id/maobile_navigation"
             app:startDestination="@id/mainFlowFragment">
     <fragment android:id="@+id/mainFlowFragment"
-              android:name="com.romanik.footballcompetitions.ui.mainflow.MainFlowFragment"
+              android:name="com.romanik.footballcompetitions.presentation.ui.mainflow.MainFlowFragment"
               android:label="MainFlowFragment"/>
 </navigation>

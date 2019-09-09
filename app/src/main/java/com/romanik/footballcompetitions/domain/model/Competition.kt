@@ -4,11 +4,11 @@ import android.os.Parcel
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.romanik.footballcompetitions.core.platform.KParcelable
-import com.romanik.footballcompetitions.core.platform.parcelableCreator
-import com.romanik.footballcompetitions.core.extentions.emptyString
-import com.romanik.footballcompetitions.core.platform.readDate
-import com.romanik.footballcompetitions.core.platform.writeDate
+import com.romanik.footballcompetitions.presentation.core.platform.KParcelable
+import com.romanik.footballcompetitions.presentation.core.platform.parcelableCreator
+import com.romanik.footballcompetitions.presentation.core.extentions.emptyString
+import com.romanik.footballcompetitions.presentation.core.platform.readDate
+import com.romanik.footballcompetitions.presentation.core.platform.writeDate
 import java.util.*
 
 @Entity

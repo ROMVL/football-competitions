@@ -4,11 +4,11 @@ import android.os.Parcel
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
-import com.romanik.footballcompetitions.core.extentions.toStringYYYY
-import com.romanik.footballcompetitions.core.platform.KParcelable
-import com.romanik.footballcompetitions.core.platform.parcelableCreator
-import com.romanik.footballcompetitions.core.platform.readDate
-import com.romanik.footballcompetitions.core.platform.writeDate
+import com.romanik.footballcompetitions.presentation.core.extentions.toStringYYYY
+import com.romanik.footballcompetitions.presentation.core.platform.KParcelable
+import com.romanik.footballcompetitions.presentation.core.platform.parcelableCreator
+import com.romanik.footballcompetitions.presentation.core.platform.readDate
+import com.romanik.footballcompetitions.presentation.core.platform.writeDate
 import java.util.*
 
 @Entity
